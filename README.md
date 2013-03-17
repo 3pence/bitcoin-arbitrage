@@ -1,5 +1,20 @@
 # Forked from maxme/bitcoin-arbitrage
+# TODO
 
+ * Tests
+ *  To add a new exchange see this [doc/add-new-exchange.md](doc/add-new-exchange.md)
+ * Add other exchanges:
+   * btc-e
+   * icbit
+ * Update order books with a WebSocket client for supported exchanges (MtGox, Bitcoin-Central)
+ * Better documentation
+ * Add fiat currency converters USD / EUR
+ * Replace float by Decimal
+ * Better history handling for observer "HistoryDumper" (Redis ?)
+ * Move EUR / USD from a market to an other:
+   * Coupons
+   * Ripple ?
+   * Negative Operations
 
 # bitcoin-arbitrage - opportunity detector and automated trading
 
@@ -16,10 +31,6 @@ Currently supported exchanges to get data:
 Currently supported exchanges to automate trade:
  - Bitcoin-Central
  - MtGox
-
-To add a new exchange see this [doc/add-new-exchange.md](doc/add-new-exchange.md)
-
-Donation are always welcome: 1Maxime7WnLqq24hasMA872JZ4VBGMDbKk
 
 # WARNING
 
@@ -44,22 +55,6 @@ Note, this example is real, it has happened when the blockchain
 forked. MtGox is a very reactive market, price dropped significally in
 1 hour, this kind of situation opens very good arbitrage
 opportunities.
-
-# TODO
-
- * Tests
- * Add other exchanges:
-   * btc-e
-   * icbit
- * Update order books with a WebSocket client for supported exchanges (MtGox, Bitcoin-Central)
- * Better documentation
- * Add fiat currency converters USD / EUR
- * Replace float by Decimal
- * Better history handling for observer "HistoryDumper" (Redis ?)
- * Move EUR / USD from a market to an other:
-   * Coupons
-   * Ripple ?
-   * Negative Operations
 
 # LICENSE
 
