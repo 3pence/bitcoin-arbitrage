@@ -1,3 +1,6 @@
+# Forked from maxme/bitcoin-arbitrage
+
+
 # bitcoin-arbitrage - opportunity detector and automated trading
 
 It gets order books from supported exchanges and calculate arbitrage
